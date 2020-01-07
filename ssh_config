@@ -1,0 +1,4 @@
+Compression yes
+StrictHostKeyChecking no
+UserKnownHostsFile /dev/null
+ForwardAgent yes
