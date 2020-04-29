@@ -1,31 +1,30 @@
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "globals": {
-        "copyOnSelect": true,
-        "keybindings": [
-            {"command": "paste","keys": ["shift+insert"]}
-        ]
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "copyOnSelect": true,
+  "keybindings": [
+    {"command": "paste","keys": ["shift+insert"]}
+  ],
+  "profiles": {
+    "defaults": {
+      "colorScheme": "One Half Dark",
+      "fontFace": "Cascadia Code",
+      "padding": "0,0,0,0",
+      "scrollbarState": "hidden",
+      "startingDirectory": "%USERPROFILE%"
     },
-    "profiles": {
-        "defaults": {
-            "colorScheme": "One Half Dark",
-            "fontFace": "Cascadia Code",
-            "padding": "0,0,0,0",
-            "scrollbarState": "hidden"
-        },
-        "list": [
-            {"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"},
-            {"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}"},
-            {
-                "guid": "{72a69aca-322e-465d-a799-1d64dff65269}",
-                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
-                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "name": "Git Bash"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true
-            }
-        ]
-    }
+    "list": [{
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"
+      }, {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}"
+      }, {
+        "guid": "{72a69aca-322e-465d-a799-1d64dff65269}",
+        "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+        "name": "Git Bash"
+      }, {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true
+      }
+    ]
+  }
 }
